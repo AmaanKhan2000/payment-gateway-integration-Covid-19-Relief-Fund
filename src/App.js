@@ -1,14 +1,18 @@
 import React from 'react';
-import MainUI from './components/main-ui-component/main-ui-component';
 
+import HomePage from './pages/homepage/homepage';
 
+import Payment from './pages/filepage/Payment';
 
-
+import {Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <MainUI/>
+    <Switch>
+     <Route exact path='/' component={HomePage}/>
+     <Route exact path='/Payment' component={Payment}/>
+    </Switch>
     </div>
   );
 }

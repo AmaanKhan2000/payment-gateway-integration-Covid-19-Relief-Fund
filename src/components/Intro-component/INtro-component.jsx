@@ -8,6 +8,8 @@ import Button from 'react-bootstrap/Button'
 
 import './Intro-component.css';
 
+import {Link} from 'react-router-dom';
+
 const Intro = () => (
   <div className="Z">
     <div className="row">
@@ -33,7 +35,9 @@ const Intro = () => (
     <Form.Control type="Number" placeholder="Enter Phone No." />
   </Form.Group>
   <p className='middle'>
+  <Link to='/Payment'>
   <Button variant="success" className='p-2 px-5 mt-3 middle'>DONATE!</Button>
+  </Link>
    </p>
 </Form>
       </div>
