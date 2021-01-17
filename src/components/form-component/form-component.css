@@ -1,0 +1,14 @@
+.my-6{
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+.middle {
+  text-align: center;
+}
+.Y{
+  z-index: 2;
+  opacity: 0.9;
+  border-radius: 20px;
+  text-align: left !important;
+  max-width: 75%;
+}

@@ -10,8 +10,10 @@ import Logo from '../../Videos/logo_transparent.png';
 
 import Intro from '../Intro-component/INtro-component';
 
+
 const MainUI = () => (
-  <div className="showcase">
+  <div>
+    <div className="showcase">
     <div className="video-container">
       <video src={CovidVideo} autoPlay muted loop></video>
     </div>
@@ -29,9 +31,11 @@ const MainUI = () => (
   <p className="downscale">COVID-19 RELIEF FUND</p>
   </Navbar>
   <Intro />
-  </div>
   
   </div>
+  </div>
+  </div>
+  
 );
 
 export default MainUI; 

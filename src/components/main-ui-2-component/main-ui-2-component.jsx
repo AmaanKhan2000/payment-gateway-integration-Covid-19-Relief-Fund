@@ -5,6 +5,7 @@ import CovidVideo from '../../Videos/CovidVideo.mp4';
 import Navbar from 'react-bootstrap/Navbar';
 
 import Logo from '../../Videos/logo_transparent.png';
+import Form from '../form-component/form-component';
 
 const MainUI2 = () => (
   <div className="showcase">
@@ -25,7 +26,7 @@ const MainUI2 = () => (
 <p className="downscale">COVID-19 RELIEF FUND</p>
 </Navbar>
 </div>
-
+  <Form />
 </div>
 );
 
