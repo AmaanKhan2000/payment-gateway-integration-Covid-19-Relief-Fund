@@ -1,17 +1,19 @@
 import React from 'react';
 import './main-ui-2-component.css';
-import CovidVideo from '../../Videos/CovidVideo.mp4';
 
 import Navbar from 'react-bootstrap/Navbar';
+
+
+import CovidVideo from '../../Videos/CovidVideo.mp4';
 
 import Logo from '../../Videos/logo_transparent.png';
 import FormC from '../form-component/form-component';
 
 const MainUI2 = () => (
   <div className="showcase">
-  <div className="video-container">
-    <video src={CovidVideo} autoPlay muted loop></video>
-  </div>
+    <div className="video-container">
+      <video src={CovidVideo} autoPlay muted loop></video>
+    </div>
   <div className="content">
   <Navbar bg="light" variant="light" className='visibility'>
 <Navbar.Brand href="#home" className='center'>

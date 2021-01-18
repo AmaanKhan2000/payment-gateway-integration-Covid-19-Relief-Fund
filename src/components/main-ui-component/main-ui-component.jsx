@@ -11,6 +11,7 @@ import Logo from '../../Videos/logo_transparent.png';
 import Intro from '../Intro-component/INtro-component';
 
 
+
 const MainUI = () => (
   <div>
     <div className="showcase">
@@ -18,7 +19,7 @@ const MainUI = () => (
       <video src={CovidVideo} autoPlay muted loop></video>
     </div>
     <div className="content">
-    <Navbar bg="light" variant="light" className='visibility'>
+    <Navbar bg="light" variant="light" className='visibility2'>
   <Navbar.Brand href="#home" className='center'>
     <img
       alt=""
@@ -28,7 +29,7 @@ const MainUI = () => (
       className="d-inline-block align-top align-center ml-5"
     />{'  '}
   </Navbar.Brand>
-  <p className="downscale">COVID-19 RELIEF FUND</p>
+  <p className="downscale animate__animated animate__slideInRight">COVID-19 RELIEF FUND</p>
   </Navbar>
   <Intro />
   

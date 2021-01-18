@@ -5,6 +5,9 @@
 .middle {
   text-align: center;
 }
+.left {
+  text-align: left;
+}
 .Y{
   z-index: 2;
   
