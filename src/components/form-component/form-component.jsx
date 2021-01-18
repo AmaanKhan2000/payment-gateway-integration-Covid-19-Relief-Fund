@@ -2,11 +2,15 @@ import React from 'react';
 
 import './form-component.css';
 
-import {Link} from 'react-router-dom';
+import InputGroup from 'react-bootstrap/InputGroup';
 
-import Button from 'react-bootstrap/Button'
+import FormControl from 'react-bootstrap/FormControl'
 
-class Form extends React.Component{
+import Button from 'react-bootstrap/Button';
+
+import Form from 'react-bootstrap/Form'
+
+export default class FormC extends React.Component{
   constructor() {
     super();
 
@@ -33,14 +37,28 @@ class Form extends React.Component{
     <Form.Label>Phone No.</Form.Label>
     <Form.Control type="Number" placeholder="Enter Phone No." />
   </Form.Group>
-  <p className='middle'>
-  <Link to='/Payment'>
-  <Button variant="success" className='p-2 px-5 mt-3 middle'>DONATE!</Button>
-  </Link>
+  <Form.Group controlId="formBasicMoney">
+    <Form.Label>Amount to Donate</Form.Label>
+    <InputGroup className="mb-2 mr-sm-2">
+    <InputGroup.Prepend>
+      <InputGroup.Text>$</InputGroup.Text>
+    </InputGroup.Prepend>
+    <FormControl id="inlineFormInputGroupUsername2" placeholder="Enter the Amount Value" />
+  </InputGroup>
+  </Form.Group>
+  <div className="row">
+    <div className="col-md-6">
+    <p className='middle'>
+  <Button variant="danger" className='p-2 px-5 mt-3 middle'>Go Back</Button>
    </p>
+    </div>
+    <div className="col-md-6">
+    <p className='middle'>
+  <Button variant="success" className='p-2 px-5 mt-3 middle'>DONATE!</Button>
+   </p>
+    </div>
+  </div>
 </Form>
     )
   }
 }
-
-export default Form;
