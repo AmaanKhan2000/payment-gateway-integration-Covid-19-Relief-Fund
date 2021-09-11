@@ -20,8 +20,8 @@ export default class FormC extends React.Component{
         <p className='left'>Card Number - 4111 1111 1111 1111</p>
         <p className='left'>CVV- Random Number</p>
         <p className='left'>Expiry Date - Any Future Date</p>
-        <form><ScriptTag src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GQoWCkmV7oZeJm" async> </ScriptTag> </form>
-      </Jumbotron>
+        <form><ScriptTag src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HvpIyjavfZJPOg" async> </ScriptTag></form>
+        </Jumbotron>
      </div>
     )
   }

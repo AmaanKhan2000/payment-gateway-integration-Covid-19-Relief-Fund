@@ -11,18 +11,15 @@ import {Link} from 'react-router-dom';
 const Intro = () => (
   <div className="Z">
     <div className="row">
-      <div className="col-md-6">
-      <Jumbotron className='border-ra bg-dark text-light mx-auto my-6' variant='bg-dark'>
-        <h4>“You have not lived today until you have done something for someone who can never repay you.” <span><h5> - by John Bunyan </h5></span> </h4>
-        <br/>
-        <h4>“No one is useless in this world who lightens the burdens of another.” <span><h5> - by Charles Dickens </h5></span> 
-        </h4>
+      <div className="col-md-12">
+      <Jumbotron className='mn-2 border-ra bg-dark text-light mx-auto my-6' variant='bg-light'>
+        <p>Safe blood saves lives. Blood is needed by women with complications during pregnancy and childbirth, children with severe anaemia, often resulting from malaria or malnutrition, accident victims and surgical and cancer patients.
 
-      </Jumbotron>
-      </div>
-      <div className="col-md-6">
-      <Jumbotron className='mn-2 border-ra bg-dark text-light mx-auto my-6' variant='bg-dark'>
-        <p>The Covid 19 Pandemic has affected us all in many different ways. For some it has been a life changing crisis. We as an organistaion want to join hands with you and help the people out there who are going through crisis.The world is facing an unprecedented challenge with communities and economies everywhere affected by the growing COVID-19 pandemic.  It’s never been more urgent to support the global response. You can press the button below and fill in your details and donate money. Each penny is counted! </p>
+        There is a constant need for a regular supply of blood because it can be stored only for a limited period of time before use. Regular blood donation by a sufficient number of healthy people is needed to ensure that blood will always be available whenever and wherever it is needed.
+
+        Blood is the most precious gift that anyone can give to another person – the gift of life. A decision to donate your blood can save a life, or even several if your blood is separated into its components – red cells, platelets and plasma – which can be used individually for patients with specific conditions.
+        </p>
+        <h5>WE HELP THE NEEDY, YOU CAN DONATE TO US BY USING THE LINK BELOW.</h5>
         <p className='middle'>
   <Link to='/Payment'>
   <Button variant="success" className='p-2 px-5 middle'>DONATE!</Button>
